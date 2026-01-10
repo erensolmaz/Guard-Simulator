@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: "Bek\xE7i Bey, size zahmet, yard\u0131m edin! C\xFCzdan\u0131m\u0131
+      d\xFC\u015F\xFCrd\xFCm san\u0131r\u0131m. \u0130\xE7inde k\u0131z\u0131m\u0131n
+      ila\xE7 kart\u0131 vard\u0131..."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Sakin olun. Nerede kaybettiniz? En son nerede kulland\u0131n\u0131z
+        c\xFCzdan\u0131n\u0131z\u0131?"
+      nextNodeID: 1
+      autoEndDialogue: 0
+      triggerSurrender: 0
+      triggerArrest: 0
+  - nodeNumber: 1
+    npcText: "Tam \u015Fu k\xF6\u015Fedeki markette kulland\u0131m san\u0131r\u0131m.
+      Ama \u015Fimdi yerinde yok. Geri d\xF6n\xFCp bakt\u0131m ama bulamad\u0131m."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Siz panik yapmay\u0131n. Marketin civar\u0131na bir daha bakal\u0131m.
+        Ben de yan\u0131n\u0131za geliyorum"
+      nextNodeID: 2
+      autoEndDialogue: 1
+      triggerSurrender: 0
+      triggerArrest: 0
+    - choiceText: "Hemen karakola gidin ve kay\u0131p ilan\u0131 verin. Benim b\xF6lgeden
+        ayr\u0131lmam do\u011Fru olmaz."
+      nextNodeID: 3
+      autoEndDialogue: 1
+      triggerSurrender: 0
+      triggerArrest: 0

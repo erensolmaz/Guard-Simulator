@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b279c6139d27db44db5cd52d7de51346
+timeCreated: 1558912585
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 120137
+  packageName: cyberpunk - Cyber City
+  packageVersion: 1.51
+  assetPath: Assets/CyberCity/_HDRP/SETUP.txt
+  uploadId: 444487

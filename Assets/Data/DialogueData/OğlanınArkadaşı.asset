@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: "O\u011Flan\u0131nArkada\u015F\u0131"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: Ne istiyorsun lan?
+    quitAfterText: 0
+    choices:
+    - choiceText: "Abicim sen Ma\u011Fdur Annenin o\u011Flunun arkada\u015F\u0131
+        Muzaffer misin?"
+      nextNodeID: 1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 1
+    npcText: "He abi benim noldu? Ba\u015F\u0131na bi\u015Fey mi geldi?"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Ben de bunun i\xE7in geldim. Arkada\u015F\u0131n 2 g\xFCnd\xFCr
+        ortal\u0131kta g\xF6r\xFCnm\xFCyormu\u015F."
+      nextNodeID: 2
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 2
+    npcText: "Valla komserim \u015Ferefsizim hi\xE7bir \u015Fey bilmiyorum."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Yani her g\xFCn beraber tak\u0131ld\u0131\u011F\u0131n can karde\u015Fiymi\u015F
+        gibi ve  her yedi\u011Finiz boklar\u0131 birbirinize anlatt\u0131\u011F\u0131n\u0131z
+        arkada\u015F\u0131n 2 g\xFCnd\xFCr kay\u0131p ve sen de nerde oldu\u011Funu
+        bilmiyorsun ha? Beni salak m\u0131 sand\u0131n o\u011Flum? E\u011Fer \xE7ocu\u011Fu
+        buldu\u011Fumda zarar gelmi\u015Fse allah belam\u0131 versin su\xE7a ortakl\u0131ktan
+        seni i\xE7eri atar\u0131m!"
+      nextNodeID: 3
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+    - choiceText: "Bak o\u011Flum. Annesi \xE7ok endi\u015Feli, ba\u015F\u0131na
+        bi\u015Fey geldi\u011Fini d\xFC\u015F\xFCn\xFCyor. O y\xFCzden rica ediyorum
+        arkada\u015F\u0131n nerede?"
+      nextNodeID: 4
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 3
+    npcText: "Tamam abi tam sen de ne asabi \xE7\u0131kt\u0131n. \u015Eu an bla bla
+      soka\u011F\u0131nda ba\u015F\u0131nda \xE7ok b\xFCy\xFCk bela var gidip ondan
+      duysan daha iyi olur."
+    quitAfterText: 1
+    choices: []
+  - nodeNumber: 4
+    npcText: "Komserim bilsem s\xF6ylemez miyim he? Salak m\u0131s\u0131n git ba\u015F\u0131mdan!"
+    quitAfterText: 1
+    choices:
+    - choiceText: "(O\u011Flan madem bir \u015Fey s\xF6ylemedi o zaman onu takip
+        etsem iyi olur.)"
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0

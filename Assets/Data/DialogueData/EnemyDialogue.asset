@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: EnemyDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: "\xC7ekil lan! G\xF6rm\xFCyor musun acelem var!"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Buras\u0131 benim devriye alan\u0131m. Sen ne bekliyorsun? Kimli\u011Fini
+        g\xF6ster."
+      nextNodeID: 1
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+  - nodeNumber: 1
+    npcText: "Bu benim de\u011Fil! Biri bana verdi, bilmiyorum! B\u0131rak beni!"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Kimse sana bir \u015Fey vermedi. Yere yat! Hemen ellerini g\xF6ster."
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+    - choiceText: "Yalan s\xF6yl\xFCyorsun. Sadece do\u011Fruyu s\xF6yle, kimin i\xE7in
+        \xE7al\u0131\u015F\u0131yorsun?"
+      nextNodeID: 2
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+  - nodeNumber: 2
+    npcText: "Tamam, tamam! B\u0131rak beni, sana gizli bir paketin adresini vereyim!"
+    quitAfterText: 0
+    choices:
+    - choiceText: Yaz hemen.
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 1
+    - choiceText: Tutukla
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0

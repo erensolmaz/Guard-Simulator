@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: EnemyBossDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: "Ailen i\xE7in \xE7al\u0131\u015F\u0131yorsun, de\u011Fil mi? Ben anlar\u0131m.
+      Hepimiz sevdiklerimiz i\xE7in bu pisli\u011Fi yutuyoruz. Sana temiz bir i\u015F
+      teklif edece\u011Fim."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Seninle i\u015Fim yok. Benim i\u015Fim seni yakalamak. Ne i\u015Fi?"
+      nextNodeID: 1
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 1
+    npcText: " Senden istedi\u011Fim, rakibimin mallar\u0131n\u0131 ta\u015F\u0131yan
+      bir depoyu 'fark etmemen'. Sana iki kat maa\u015F\u0131n\u0131 veririm, kimse
+      bilmez.Sana iki zarf haz\u0131rlad\u0131m. Birincisi, bu geceki avans\u0131n.
+      \u0130kincisi, ailene g\xFCzel bir tatil hediye \xE7eki. Ne diyorsun? G\xF6rmezden
+      gelmek bu kadar zor mu?"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Zarflar\u0131n\u0131 al ve beni rahat b\u0131rak. Ben bu pisli\u011Fin
+        bir par\xE7as\u0131 olmayaca\u011F\u0131m."
+      nextNodeID: 2
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+    - choiceText: "Tamam.Ama beni bir daha bu t\xFCr i\u015Flere bula\u015Ft\u0131rmayacaks\u0131n."
+      nextNodeID: 3
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 1
+  - nodeNumber: 2
+    npcText: "Yanl\u0131\u015F adam\u0131 se\xE7tim demek. \xC7ok yaz\u0131k."
+    quitAfterText: 1
+    choices: []
+  - nodeNumber: 3
+    npcText: Adresi ve saati iletmemi ister misin?
+    quitAfterText: 0
+    choices:
+    - choiceText: Evet.
+      nextNodeID: 4
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 4
+    npcText: "Ak\u0131ll\u0131 adams\u0131n. Sana g\xFCveniyorum. O depoyu temiz
+      tut. Bu sadece ba\u015Flang\u0131\xE7."
+    quitAfterText: 1
+    choices: []

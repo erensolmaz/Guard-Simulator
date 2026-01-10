@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: "Ma\u011FdurunO\u011Flu"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: "Abi l\xFCtfen\u2026 Ba\u015Fka se\xE7ene\u011Fim yoktu. Bana zorla
+      yapt\u0131rd\u0131lar."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Bana \u015Fimdi burada ne oldu\u011Funu anlatacaks\u0131n yoksa
+        seni derhal i\xE7eri alaca\u011F\u0131m!"
+      nextNodeID: 1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+  - nodeNumber: 1
+    npcText: "Benim tak\u0131ld\u0131\u011F\u0131m mahalledeki b\xFCy\xFCkler var,
+      her pis i\u015Flerini bana yapt\u0131r\u0131rlar. Ge\xE7en g\xFCn \u015Fantaj
+      yapt\u0131klar\u0131 adama para vermedi\u011Finden adam\u0131 \xF6ld\xFCrmek
+      i\xE7in beni yollad\u0131lar. Abi\u2026 tehdit ettiler. Yapmasayd\u0131m ayn\u0131s\u0131n\u0131
+      anneme yapacaklar\u0131n\u0131 s\xF6ylediler."
+    quitAfterText: 0
+    choices:
+    - choiceText: "Bu palavralar bana s\xF6kmez. Adam\u0131 \xF6ld\xFCrm\xFC\u015Fs\xFCn
+        bundan ka\xE7\u0131\u015F\u0131n yok. Hemen ifade vermeye karakola gidiyoruz.
+        gidiyoruz! gidiyoruz."
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+    - choiceText: "Tamam \xE7ocu\u011Fum, dediklerine inan\u0131yorum. O haydutlarla
+        ilginece\u011Fim."
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0

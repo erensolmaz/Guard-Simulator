@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16e093548b652e498d9b6065d0558ba, type: 3}
+  m_Name: Torbaci
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  endDialogueDelay: 2
+  dialogueNodes:
+  - nodeNumber: 0
+    npcText: "Hay\u0131rd\u0131r lan ne i\u015Fin var benle?"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Bu paketleri sen mi da\u011F\u0131t\u0131yorsun."
+      nextNodeID: 1
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+  - nodeNumber: 1
+    npcText: "Alakam yok, rahat b\u0131rak beni!"
+    quitAfterText: 0
+    choices:
+    - choiceText: "Yere yat! Hemen ellerini g\xF6ster."
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 1
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+    - choiceText: "\u0130\u015Fleri illa zor yolla m\u0131 halledelim."
+      nextNodeID: 2
+      autoEndDialogue: 0
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
+  - nodeNumber: 2
+    npcText: "Ben sana g\xF6steririm zor yolu."
+    quitAfterText: 0
+    choices:
+    - choiceText: "[Adam\u0131n koruma robotu hareket ediyor.]"
+      nextNodeID: -1
+      autoEndDialogue: 1
+      triggerArrest: 0
+      triggerRage: 0
+      triggerQuest: 0
+      triggerCollectQuest: 0
